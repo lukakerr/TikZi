@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10E50F12335BD60006BEA55 /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10E50F02335BD60006BEA55 /* PDFKit.framework */; };
+		A10E50F52335C00C006BEA55 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E50F42335C00C006BEA55 /* Template.swift */; };
+		A10E50F72335C170006BEA55 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E50F62335C170006BEA55 /* Debouncer.swift */; };
+		A10E50F92335C5DE006BEA55 /* TikZiWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10E50F82335C5DE006BEA55 /* TikZiWindowController.swift */; };
+		A18D860C2335A54900BEBF27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18D860B2335A54900BEBF27 /* AppDelegate.swift */; };
+		A18D860E2335A54900BEBF27 /* TikZiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18D860D2335A54900BEBF27 /* TikZiViewController.swift */; };
+		A18D86102335A54B00BEBF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18D860F2335A54B00BEBF27 /* Assets.xcassets */; };
+		A18D86132335A54B00BEBF27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18D86112335A54B00BEBF27 /* Main.storyboard */; };
+		A18D861F2335A54B00BEBF27 /* TikZiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18D861E2335A54B00BEBF27 /* TikZiTests.swift */; };
+		A18D862A2335A54B00BEBF27 /* TikZiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18D86292335A54B00BEBF27 /* TikZiUITests.swift */; };
+		A1DBF8012335D44500598641 /* pdf2svg in Resources */ = {isa = PBXBuildFile; fileRef = A1DBF8002335D44500598641 /* pdf2svg */; };
+		A1DBF8032335D52100598641 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DBF8022335D52100598641 /* Command.swift */; };
+		A1DBF8072335DE8600598641 /* contents.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A1DBF8042335DE8600598641 /* contents.pdf */; };
+		A1DBF8082335DE8600598641 /* contents.tex in Resources */ = {isa = PBXBuildFile; fileRef = A1DBF8052335DE8600598641 /* contents.tex */; };
+		A1DBF8092335DE8600598641 /* contents.svg in Resources */ = {isa = PBXBuildFile; fileRef = A1DBF8062335DE8600598641 /* contents.svg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A18D861B2335A54B00BEBF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A18D86002335A54900BEBF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A18D86072335A54900BEBF27;
+			remoteInfo = TikZi;
+		};
+		A18D86262335A54B00BEBF27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A18D86002335A54900BEBF27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A18D86072335A54900BEBF27;
+			remoteInfo = TikZi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10E50F02335BD60006BEA55 /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = System/Library/Frameworks/PDFKit.framework; sourceTree = SDKROOT; };
+		A10E50F42335C00C006BEA55 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		A10E50F62335C170006BEA55 /* Debouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debouncer.swift; sourceTree = "<group>"; };
+		A10E50F82335C5DE006BEA55 /* TikZiWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikZiWindowController.swift; sourceTree = "<group>"; };
+		A18D86082335A54900BEBF27 /* TikZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18D860B2335A54900BEBF27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A18D860D2335A54900BEBF27 /* TikZiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikZiViewController.swift; sourceTree = "<group>"; };
+		A18D860F2335A54B00BEBF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A18D86122335A54B00BEBF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A18D86142335A54B00BEBF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18D861A2335A54B00BEBF27 /* TikZiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikZiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18D861E2335A54B00BEBF27 /* TikZiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikZiTests.swift; sourceTree = "<group>"; };
+		A18D86202335A54B00BEBF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18D86252335A54B00BEBF27 /* TikZiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikZiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18D86292335A54B00BEBF27 /* TikZiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikZiUITests.swift; sourceTree = "<group>"; };
+		A18D862B2335A54B00BEBF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DBF8002335D44500598641 /* pdf2svg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pdf2svg; sourceTree = "<group>"; };
+		A1DBF8022335D52100598641 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		A1DBF8042335DE8600598641 /* contents.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = contents.pdf; sourceTree = "<group>"; };
+		A1DBF8052335DE8600598641 /* contents.tex */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contents.tex; sourceTree = "<group>"; };
+		A1DBF8062335DE8600598641 /* contents.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contents.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A18D86052335A54900BEBF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10E50F12335BD60006BEA55 /* PDFKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D86172335A54B00BEBF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D86222335A54B00BEBF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10E50EF2335BD60006BEA55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A10E50F02335BD60006BEA55 /* PDFKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A18D85FF2335A54900BEBF27 = {
+			isa = PBXGroup;
+			children = (
+				A18D863A2335A9D100BEBF27 /* Resources */,
+				A18D860A2335A54900BEBF27 /* TikZi */,
+				A18D861D2335A54B00BEBF27 /* TikZiTests */,
+				A18D86282335A54B00BEBF27 /* TikZiUITests */,
+				A18D86092335A54900BEBF27 /* Products */,
+				A10E50EF2335BD60006BEA55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A18D86092335A54900BEBF27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A18D86082335A54900BEBF27 /* TikZi.app */,
+				A18D861A2335A54B00BEBF27 /* TikZiTests.xctest */,
+				A18D86252335A54B00BEBF27 /* TikZiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A18D860A2335A54900BEBF27 /* TikZi */ = {
+			isa = PBXGroup;
+			children = (
+				A18D860B2335A54900BEBF27 /* AppDelegate.swift */,
+				A18D860F2335A54B00BEBF27 /* Assets.xcassets */,
+				A1DBF8022335D52100598641 /* Command.swift */,
+				A10E50F62335C170006BEA55 /* Debouncer.swift */,
+				A18D86142335A54B00BEBF27 /* Info.plist */,
+				A18D86112335A54B00BEBF27 /* Main.storyboard */,
+				A10E50F42335C00C006BEA55 /* Template.swift */,
+				A18D860D2335A54900BEBF27 /* TikZiViewController.swift */,
+				A10E50F82335C5DE006BEA55 /* TikZiWindowController.swift */,
+			);
+			path = TikZi;
+			sourceTree = "<group>";
+		};
+		A18D861D2335A54B00BEBF27 /* TikZiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A18D861E2335A54B00BEBF27 /* TikZiTests.swift */,
+				A18D86202335A54B00BEBF27 /* Info.plist */,
+			);
+			path = TikZiTests;
+			sourceTree = "<group>";
+		};
+		A18D86282335A54B00BEBF27 /* TikZiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A18D86292335A54B00BEBF27 /* TikZiUITests.swift */,
+				A18D862B2335A54B00BEBF27 /* Info.plist */,
+			);
+			path = TikZiUITests;
+			sourceTree = "<group>";
+		};
+		A18D863A2335A9D100BEBF27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1DBF8042335DE8600598641 /* contents.pdf */,
+				A1DBF8062335DE8600598641 /* contents.svg */,
+				A1DBF8052335DE8600598641 /* contents.tex */,
+				A1DBF8002335D44500598641 /* pdf2svg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A18D86072335A54900BEBF27 /* TikZi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18D862E2335A54B00BEBF27 /* Build configuration list for PBXNativeTarget "TikZi" */;
+			buildPhases = (
+				A18D86042335A54900BEBF27 /* Sources */,
+				A18D86052335A54900BEBF27 /* Frameworks */,
+				A18D86062335A54900BEBF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikZi;
+			productName = TikZi;
+			productReference = A18D86082335A54900BEBF27 /* TikZi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A18D86192335A54B00BEBF27 /* TikZiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18D86312335A54B00BEBF27 /* Build configuration list for PBXNativeTarget "TikZiTests" */;
+			buildPhases = (
+				A18D86162335A54B00BEBF27 /* Sources */,
+				A18D86172335A54B00BEBF27 /* Frameworks */,
+				A18D86182335A54B00BEBF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A18D861C2335A54B00BEBF27 /* PBXTargetDependency */,
+			);
+			name = TikZiTests;
+			productName = TikZiTests;
+			productReference = A18D861A2335A54B00BEBF27 /* TikZiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A18D86242335A54B00BEBF27 /* TikZiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A18D86342335A54B00BEBF27 /* Build configuration list for PBXNativeTarget "TikZiUITests" */;
+			buildPhases = (
+				A18D86212335A54B00BEBF27 /* Sources */,
+				A18D86222335A54B00BEBF27 /* Frameworks */,
+				A18D86232335A54B00BEBF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A18D86272335A54B00BEBF27 /* PBXTargetDependency */,
+			);
+			name = TikZiUITests;
+			productName = TikZiUITests;
+			productReference = A18D86252335A54B00BEBF27 /* TikZiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A18D86002335A54900BEBF27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Luka Kerr";
+				TargetAttributes = {
+					A18D86072335A54900BEBF27 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A18D86192335A54B00BEBF27 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A18D86072335A54900BEBF27;
+					};
+					A18D86242335A54B00BEBF27 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A18D86072335A54900BEBF27;
+					};
+				};
+			};
+			buildConfigurationList = A18D86032335A54900BEBF27 /* Build configuration list for PBXProject "TikZi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A18D85FF2335A54900BEBF27;
+			productRefGroup = A18D86092335A54900BEBF27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A18D86072335A54900BEBF27 /* TikZi */,
+				A18D86192335A54B00BEBF27 /* TikZiTests */,
+				A18D86242335A54B00BEBF27 /* TikZiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A18D86062335A54900BEBF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18D86102335A54B00BEBF27 /* Assets.xcassets in Resources */,
+				A18D86132335A54B00BEBF27 /* Main.storyboard in Resources */,
+				A1DBF8072335DE8600598641 /* contents.pdf in Resources */,
+				A1DBF8082335DE8600598641 /* contents.tex in Resources */,
+				A1DBF8092335DE8600598641 /* contents.svg in Resources */,
+				A1DBF8012335D44500598641 /* pdf2svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D86182335A54B00BEBF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D86232335A54B00BEBF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A18D86042335A54900BEBF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10E50F92335C5DE006BEA55 /* TikZiWindowController.swift in Sources */,
+				A10E50F52335C00C006BEA55 /* Template.swift in Sources */,
+				A18D860E2335A54900BEBF27 /* TikZiViewController.swift in Sources */,
+				A10E50F72335C170006BEA55 /* Debouncer.swift in Sources */,
+				A18D860C2335A54900BEBF27 /* AppDelegate.swift in Sources */,
+				A1DBF8032335D52100598641 /* Command.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D86162335A54B00BEBF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18D861F2335A54B00BEBF27 /* TikZiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D86212335A54B00BEBF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18D862A2335A54B00BEBF27 /* TikZiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A18D861C2335A54B00BEBF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A18D86072335A54900BEBF27 /* TikZi */;
+			targetProxy = A18D861B2335A54B00BEBF27 /* PBXContainerItemProxy */;
+		};
+		A18D86272335A54B00BEBF27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A18D86072335A54900BEBF27 /* TikZi */;
+			targetProxy = A18D86262335A54B00BEBF27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A18D86112335A54B00BEBF27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A18D86122335A54B00BEBF27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A18D862C2335A54B00BEBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A18D862D2335A54B00BEBF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A18D862F2335A54B00BEBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TikZi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.TikZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A18D86302335A54B00BEBF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TikZi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.TikZi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A18D86322335A54B00BEBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TikZiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.TikZiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikZi.app/Contents/MacOS/TikZi";
+			};
+			name = Debug;
+		};
+		A18D86332335A54B00BEBF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TikZiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.TikZiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikZi.app/Contents/MacOS/TikZi";
+			};
+			name = Release;
+		};
+		A18D86352335A54B00BEBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TikZiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.TikZiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TikZi;
+			};
+			name = Debug;
+		};
+		A18D86362335A54B00BEBF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TikZiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.lukakerr.TikZiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TikZi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A18D86032335A54900BEBF27 /* Build configuration list for PBXProject "TikZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18D862C2335A54B00BEBF27 /* Debug */,
+				A18D862D2335A54B00BEBF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18D862E2335A54B00BEBF27 /* Build configuration list for PBXNativeTarget "TikZi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18D862F2335A54B00BEBF27 /* Debug */,
+				A18D86302335A54B00BEBF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18D86312335A54B00BEBF27 /* Build configuration list for PBXNativeTarget "TikZiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18D86322335A54B00BEBF27 /* Debug */,
+				A18D86332335A54B00BEBF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A18D86342335A54B00BEBF27 /* Build configuration list for PBXNativeTarget "TikZiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18D86352335A54B00BEBF27 /* Debug */,
+				A18D86362335A54B00BEBF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A18D86002335A54900BEBF27 /* Project object */;
+}
